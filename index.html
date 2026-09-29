@@ -1,329 +1,335 @@
 <!DOCTYPE html>
+
 <html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Una pregunta para ti 💗</title>
+```
+<title>Una pregunta para ti 💗</title>
 
-    <link rel="stylesheet" href="estilos.css">
+<link rel="stylesheet" href="estilos.css">
+```
+
 </head>
 
 <body>
 
-    <!-- =========================
-         PANTALLA DE ENTRADA
-    ========================== -->
+```
+<!-- =========================
+     PANTALLA DE ENTRADA
+========================== -->
 
-    <section id="entrada" class="entrada">
+<section id="entrada" class="entrada">
 
-        <div class="corazon-entrada">💗</div>
+    <div class="corazon-entrada">💗</div>
 
-        <p class="entrada-pequeno">
-            Tengo algo muy importante que decirte...
+    <p class="entrada-pequeno">
+        Tengo algo muy importante que decirte...
+    </p>
+
+    <h1>
+        Hay algo que llevo<br>
+        un tiempo queriendo decirte...
+    </h1>
+
+    <p class="entrada-texto">
+        Y esta vez quería hacerlo de una manera
+        un poquito más especial. 💕
+    </p>
+
+    <button class="boton-abrir" onclick="abrirCarta()">
+        💌 Abrir mi carta
+    </button>
+
+</section>
+
+
+<!-- =========================
+     CARTA
+========================== -->
+
+<main id="carta" class="carta oculto">
+
+    <div class="decoracion arriba">
+        ♡　♡　♡
+    </div>
+
+    <div class="corazon-principal">
+        💗
+    </div>
+
+    <p class="inicio-carta">
+        Para una persona muy especial...
+    </p>
+
+
+    <h1>
+        Quiero decirte algo 💕
+    </h1>
+
+
+    <div class="texto">
+
+        <p>
+            desde el primer momento que hablamos empezaste a
+            convertirte en alguien importante para mí,
+            sé que poco a poco fuiste ocupando un lugar
+            muy especial en mi corazón.
         </p>
 
-        <h1>
-            Hay algo que llevo<br>
-            un tiempo queriendo decirte...
-        </h1>
-
-        <p class="entrada-texto">
-            Y esta vez quería hacerlo de una manera
-            un poquito más especial. 💕
+        <p>
+            Desde que llegaste a mi vida, hay momentos que
+            simplemente se sienten diferentes. Una conversación
+            contigo puede cambiarme el día, una sonrisa tuya
+            puede hacerme olvidar cualquier problema y hasta
+            las cosas más sencillas se vuelven especiales cuando
+            puedo compartirlas contigo.
         </p>
 
-        <button class="boton-abrir" onclick="abrirCarta()">
-            💌 Abrir mi carta
-        </button>
+        <p>
+            Me gusta hablar contigo, reír contigo, molestarte
+            un poquito, escuchar lo que tienes para contarme
+            y simplemente saber que estás ahí.
+        </p>
 
-    </section>
+        <p>
+            Y aunque quizás no siempre encuentre las palabras
+            perfectas para decirlo, quiero que sepas que
+            realmente valoro cada momento que compartimos.
+            Cada conversación, cada risa, cada detalle y cada
+            recuerdo que hemos creado significa muchísimo para mí.
+        </p>
+
+        <p>
+            No quiero prometerte una historia perfecta,
+            porque sé que ninguna historia lo es. Pero sí
+            quiero prometerte que, si me das la oportunidad,
+            voy a intentar hacer que cada día a tu lado
+            sea un poquito más bonito.
+        </p>
+
+        <p>
+            Quiero estar para ti cuando estés feliz,
+            cuando necesites reírte, cuando tengas un mal día
+            y cuando simplemente quieras hablar de cualquier
+            cosa.
+        </p>
+
+        <p>
+            Quiero seguir conociéndote, descubrir cada pequeño
+            detalle que te hace ser tú y crear juntos muchos
+            más recuerdos que algún día podamos mirar atrás
+            y recordar con una sonrisa.
+        </p>
+
+        <p class="especial">
+            Porque entre tantas personas, tú conseguiste
+            convertirte en alguien que para mí es diferente. 💗
+        </p>
+
+        <p>
+            Y por eso hoy decidí dejar de darle tantas vueltas
+            a las cosas y simplemente preguntarte lo que de
+            verdad quiero preguntarte...
+        </p>
+
+    </div>
 
 
-    <!-- =========================
-         CARTA
-    ========================== -->
+    <!-- PREGUNTA -->
 
-    <main id="carta" class="carta oculto">
+    <div class="pregunta-final">
 
-        <div class="decoracion arriba">
-            ♡　♡　♡
+        <div class="corazon-pregunta">
+            💕
         </div>
 
-        <div class="corazon-principal">
-            💗
-        </div>
+        <p class="pregunta-pequena">
+            Después de todo esto...
+        </p>
 
-        <p class="inicio-carta">
-            Para una persona muy especial...
+        <h2>
+            ¿Quieres ser<br>
+            mi novia? 🥺💗
+        </h2>
+
+        <p class="ultima-frase">
+            Quiero que seas esa persona con la que pueda
+            compartir muchísimos momentos más.
         </p>
 
 
-        <h1>
-            Quiero decirte algo 💕
-        </h1>
+        <div class="botones">
 
+            <button class="si" onclick="aceptar()">
+                💗 Sí, quiero
+            </button>
 
-        <div class="texto">
-
-            <p>
-                desde el primer momento que hablamos empezaste a
-                convertirte en alguien importante para mí,
-                sé que poco a poco fuiste ocupando un lugar
-                muy especial en mi corazón.
-            </p>
-
-            <p>
-                Desde que llegaste a mi vida, hay momentos que
-                simplemente se sienten diferentes. Una conversación
-                contigo puede cambiarme el día, una sonrisa tuya
-                puede hacerme olvidar cualquier problema y hasta
-                las cosas más sencillas se vuelven especiales cuando
-                puedo compartirlas contigo.
-            </p>
-
-            <p>
-                Me gusta hablar contigo, reír contigo, molestarte
-                un poquito, escuchar lo que tienes para contarme
-                y simplemente saber que estás ahí.
-            </p>
-
-            <p>
-                Y aunque quizás no siempre encuentre las palabras
-                perfectas para decirlo, quiero que sepas que
-                realmente valoro cada momento que compartimos.
-                Cada conversación, cada risa, cada detalle y cada
-                recuerdo que hemos creado significa muchísimo para mí.
-            </p>
-
-            <p>
-                No quiero prometerte una historia perfecta,
-                porque sé que ninguna historia lo es. Pero sí
-                quiero prometerte que, si me das la oportunidad,
-                voy a intentar hacer que cada día a tu lado
-                sea un poquito más bonito.
-            </p>
-
-            <p>
-                Quiero estar para ti cuando estés feliz,
-                cuando necesites reírte, cuando tengas un mal día
-                y cuando simplemente quieras hablar de cualquier
-                cosa.
-            </p>
-
-            <p>
-                Quiero seguir conociéndote, descubrir cada pequeño
-                detalle que te hace ser tú y crear juntos muchos
-                más recuerdos que algún día podamos mirar atrás
-                y recordar con una sonrisa.
-            </p>
-
-            <p class="especial">
-                Porque entre tantas personas, tú conseguiste
-                convertirte en alguien que para mí es diferente. 💗
-            </p>
-
-            <p>
-                Y por eso hoy decidí dejar de darle tantas vueltas
-                a las cosas y simplemente preguntarte lo que de
-                verdad quiero preguntarte...
-            </p>
+            <button class="no" id="botonNo">
+                No 😭
+            </button>
 
         </div>
 
 
-        <!-- PREGUNTA -->
+        <div id="respuesta" class="respuesta">
 
-        <div class="pregunta-final">
+            💕 ¡SABÍA QUE DIRÍAS QUE SÍ! 💕
 
-            <div class="corazon-pregunta">
-                💕
-            </div>
+            <br><br>
 
-            <p class="pregunta-pequena">
-                Después de todo esto...
-            </p>
+            Ahora empieza nuestra historia. 🥺💗
 
-            <h2>
-                ¿Quieres ser<br>
-                mi novia? 🥺💗
-            </h2>
+            <br>
 
-            <p class="ultima-frase">
-                Quiero que seas esa persona con la que pueda
-                compartir muchísimos momentos más.
-            </p>
-
-
-            <div class="botones">
-
-                <button class="si" onclick="aceptar()">
-                    💗 Sí, quiero
-                </button>
-
-                <button class="no" id="botonNo">
-                    No 😭
-                </button>
-
-            </div>
-
-
-            <div id="respuesta" class="respuesta">
-
-                💕 ¡SABÍA QUE DIRÍAS QUE SÍ! 💕
-
-                <br><br>
-
-                Ahora empieza nuestra historia. 🥺💗
-
-                <br>
-
-                Te quiero muchísimo. 💕🌷
-
-            </div>
+            Te quiero muchísimo. 💕🌷
 
         </div>
 
-
-        <div class="decoracion abajo">
-            ♡　💗　♡
-        </div>
-
-    </main>
+    </div>
 
 
-    <!-- =========================
-         CORAZONES DE FONDO
-    ========================== -->
+    <div class="decoracion abajo">
+        ♡　💗　♡
+    </div>
 
-    <div class="corazon-fondo f1">♡</div>
-    <div class="corazon-fondo f2">♡</div>
-    <div class="corazon-fondo f3">♡</div>
-    <div class="corazon-fondo f4">♡</div>
-    <div class="corazon-fondo f5">♡</div>
+</main>
 
 
-    <script>
+<!-- =========================
+     CORAZONES DE FONDO
+========================== -->
 
-        /* =========================
-           ABRIR CARTA
-        ========================== */
+<div class="corazon-fondo f1">♡</div>
+<div class="corazon-fondo f2">♡</div>
+<div class="corazon-fondo f3">♡</div>
+<div class="corazon-fondo f4">♡</div>
+<div class="corazon-fondo f5">♡</div>
 
-        function abrirCarta() {
 
-            const entrada = document.getElementById("entrada");
-            const carta = document.getElementById("carta");
+<script>
 
-            entrada.classList.add("salir");
+    /* =========================
+       ABRIR CARTA
+    ========================== */
+
+    function abrirCarta() {
+
+        const entrada = document.getElementById("entrada");
+        const carta = document.getElementById("carta");
+
+        entrada.classList.add("salir");
+
+        setTimeout(() => {
+
+            entrada.style.display = "none";
+
+            carta.classList.remove("oculto");
+
+            carta.classList.add("aparecer");
+
+        }, 900);
+    }
+
+
+    /* =========================
+       BOTÓN SÍ
+    ========================== */
+
+    function aceptar() {
+
+        const respuesta =
+            document.getElementById("respuesta");
+
+        respuesta.style.display = "block";
+
+        lanzarCorazones();
+    }
+
+
+    /* =========================
+       BOTÓN NO
+    ========================== */
+
+    const botonNo =
+        document.getElementById("botonNo");
+
+
+    botonNo.addEventListener("mouseover", function () {
+
+        const x =
+            Math.random() * 300 - 150;
+
+        const y =
+            Math.random() * 200 - 100;
+
+        botonNo.style.transform =
+            `translate(${x}px, ${y}px)`;
+
+    });
+
+
+    /* También funciona en celular */
+
+    botonNo.addEventListener("touchstart", function () {
+
+        const x =
+            Math.random() * 250 - 125;
+
+        const y =
+            Math.random() * 180 - 90;
+
+        botonNo.style.transform =
+            `translate(${x}px, ${y}px)`;
+
+    });
+
+
+    /* =========================
+       CORAZONES AL DECIR SÍ
+    ========================== */
+
+    function lanzarCorazones() {
+
+        for (let i = 0; i < 45; i++) {
+
+            const corazon =
+                document.createElement("div");
+
+            corazon.innerHTML =
+                Math.random() > 0.5
+                ? "💗"
+                : "💕";
+
+            corazon.classList.add(
+                "corazon-volando"
+            );
+
+            corazon.style.left =
+                Math.random() * 100 + "vw";
+
+            corazon.style.animationDuration =
+                (2 + Math.random() * 4) + "s";
+
+            corazon.style.fontSize =
+                (18 + Math.random() * 25) + "px";
+
+            document.body.appendChild(
+                corazon
+            );
 
             setTimeout(() => {
 
-                entrada.style.display = "none";
+                corazon.remove();
 
-                carta.classList.remove("oculto");
-
-                carta.classList.add("aparecer");
-
-            }, 900);
+            }, 6000);
         }
+    }
 
-
-        /* =========================
-           BOTÓN SÍ
-        ========================== */
-
-        function aceptar() {
-
-            const respuesta =
-                document.getElementById("respuesta");
-
-            respuesta.style.display = "block";
-
-            lanzarCorazones();
-        }
-
-
-        /* =========================
-           BOTÓN NO
-        ========================== */
-
-        const botonNo =
-            document.getElementById("botonNo");
-
-
-        botonNo.addEventListener("mouseover", function () {
-
-            const x =
-                Math.random() * 300 - 150;
-
-            const y =
-                Math.random() * 200 - 100;
-
-            botonNo.style.transform =
-                `translate(${x}px, ${y}px)`;
-
-        });
-
-
-        /* También funciona en celular */
-
-        botonNo.addEventListener("touchstart", function () {
-
-            const x =
-                Math.random() * 250 - 125;
-
-            const y =
-                Math.random() * 180 - 90;
-
-            botonNo.style.transform =
-                `translate(${x}px, ${y}px)`;
-
-        });
-
-
-        /* =========================
-           CORAZONES AL DECIR SÍ
-        ========================== */
-
-        function lanzarCorazones() {
-
-            for (let i = 0; i < 45; i++) {
-
-                const corazon =
-                    document.createElement("div");
-
-                corazon.innerHTML =
-                    Math.random() > 0.5
-                    ? "💗"
-                    : "💕";
-
-                corazon.classList.add(
-                    "corazon-volando"
-                );
-
-                corazon.style.left =
-                    Math.random() * 100 + "vw";
-
-                corazon.style.animationDuration =
-                    (2 + Math.random() * 4) + "s";
-
-                corazon.style.fontSize =
-                    (18 + Math.random() * 25) + "px";
-
-                document.body.appendChild(
-                    corazon
-                );
-
-                setTimeout(() => {
-
-                    corazon.remove();
-
-                }, 6000);
-            }
-        }
-
-    </script>
+</script>
+```
 
 </body>
 
